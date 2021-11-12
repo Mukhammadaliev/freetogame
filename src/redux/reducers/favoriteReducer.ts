@@ -1,18 +1,9 @@
 import { FavoriteAvtionsType, FavoriteState } from './../../types/favorite';
 import { FavoriteActions } from "../../types/favorite";
 
-
-
-
-
 const initialState: FavoriteState = {
   favoriteGames: [],
 }
-
-
-
-
-
 
 export const favoriteReducer = (state = initialState, action: FavoriteActions): FavoriteState => {
   switch (action.type) {

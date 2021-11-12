@@ -5,8 +5,3 @@ import thunk from "redux-thunk";
 
 
 export const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
-
-
-store.subscribe(()=>{
-  localStorage.setItem('store', JSON.stringify(store.getState().favorite))
-})
