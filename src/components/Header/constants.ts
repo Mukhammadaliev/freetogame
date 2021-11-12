@@ -1,0 +1,61 @@
+export const genres = [
+  { type: null, name: 'all genre' },
+  { type: 'mmorpg', name: 'mmorpg' },
+  { type: 'shooter', name: 'shooter' },
+  { type: 'strategy', name: 'strategy' },
+  { type: 'moba', name: 'moba' },
+  { type: 'racing', name: 'racing' },
+  { type: 'sports', name: 'sports' },
+  { type: 'social', name: 'social' },
+  { type: 'sandbox', name: 'sandbox' },
+  { type: 'open-world', name: 'open-world' },
+  { type: 'survival', name: 'survival' },
+  { type: 'pvp', name: 'pvp' },
+  { type: 'pve', name: 'pve' },
+  { type: 'pixel', name: 'pixel' },
+  { type: 'voxel', name: 'voxel' },
+  { type: 'zombie', name: 'zombie' },
+  { type: 'turn-based', name: 'turn-based' },
+  { type: 'first-person', name: 'first-person' },
+  { type: 'third-Person', name: 'third-Person' },
+  { type: 'top-down', name: 'top-down' },
+  { type: 'tank', name: 'tank' },
+  { type: 'space', name: 'space' },
+  { type: 'sailing', name: 'sailing' },
+  { type: 'side-scroller', name: 'side-scroller' },
+  { type: 'superhero', name: 'superhero' },
+  { type: 'permadeath', name: 'permadeath' },
+  { type: 'card', name: 'card' },
+  { type: 'battle-royale', name: 'battle-royale' },
+  { type: 'mmo', name: 'mmo' },
+  { type: 'mmofps', name: 'mmofps' },
+  { type: 'mmotps', name: 'mmotps' },
+  { type: '3d', name: '3d' },
+  { type: '2d', name: '2d' },
+  { type: 'anime', name: 'anime' },
+  { type: 'fantasy', name: 'fantasy' },
+  { type: 'sci-fi', name: 'sci-fi' },
+  { type: 'fighting', name: 'fighting' },
+  { type: 'action-rpg', name: 'action-rpg' },
+  { type: 'action', name: 'action' },
+  { type: 'military', name: 'military' },
+  { type: 'martial-arts', name: 'martial-arts' },
+  { type: 'flight', name: 'flight' },
+  { type: 'low-spec', name: 'low-spec' },
+  { type: 'tower-defense', name: 'tower-defense' },
+  { type: 'horror', name: 'horror' },
+  { type: 'mmorts', name: 'mmorts' }
+]
+
+export const sortsBy = [
+  {type: 'Relevance', name: 'Relevance'},
+  {type: 'Popularity', name: 'Popularity'},
+  {type: 'Release Date', name: "Release Date"},
+  {type: 'Alphabetical', name: 'Alphabetical'}
+]
+
+export const platforms = [
+  {type: null, name: 'All platfroms'},
+  {type: 'browser', name: 'browser (web)'},
+  {type: 'pc', name: 'windows (pc)'}
+]

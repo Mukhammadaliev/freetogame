@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.title {
+  color: #646B70;
+  margin-bottom: 5px;
+}
+.text {
+  color: #aaa;
+  margin: 0;
+}
