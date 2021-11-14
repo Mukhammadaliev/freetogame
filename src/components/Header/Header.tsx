@@ -7,12 +7,11 @@ import { useTypeSelector } from '../../hooks/useTypeSelector'
 import { setGenre, setPlatform, setSortBy } from '../../redux/actions/filter'
 import styles from './Header.module.css'
 import {genres, sortsBy, platforms} from './constants'
+import bookmark from '../../asseets/bookmark.png'
 
 const Header: FC = () => {
   const dispatch = useDispatch()
   const {genre, platform, sortBy} = useTypeSelector(state => state.filter)
-
-
 
 
   const selectPlarform = (platformType : null | string) => {
@@ -25,12 +24,6 @@ const Header: FC = () => {
     dispatch(setSortBy(sortBy))
   }
 
-
-
-
-
-
-
   return (
     <header className={styles.header}>
       <div className='container'>
@@ -41,6 +34,9 @@ const Header: FC = () => {
           <FilterPopup activePopup={platform} selectType={selectPlarform} options={platforms} label={'Platforms'} />
           <FilterPopup activePopup={genre} selectType={selectGenre} options={genres} label={'Genres'} />
           <FilterPopup activePopup={sortBy} selectType={selectSortBy} options={sortsBy} label={'Sort By'} />
+          <Link className={styles.favorite_page} to='/favorite'>
+            <img src={bookmark} alt="" />
+          </Link>
         </div>
       </div>
     </header>

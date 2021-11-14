@@ -4,6 +4,7 @@
 }
 .wrapper {
   position: relative;
+  margin-left: 30px;
 }
 .list {
   position: absolute;

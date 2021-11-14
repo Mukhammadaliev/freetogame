@@ -23,16 +23,6 @@ const GamePage: FC = () => {
 
   let history = useNavigate()
 
-
-
-  // const goBackFunc = () => {
-  //   history.goBack()
-  // }
-
-
-
-
-
   useEffect( () => {
     dispatch(fetchGame(id))
     if(favoriteGames) {

@@ -8,12 +8,9 @@ const Home :FC = () => {
 
 
   return (
-    <div className='container'>
       <div className={styles.wrapper}>
         <GameList />
       </div>
-
-    </div>
   )
 }
 
